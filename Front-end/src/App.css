@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
+
+.App {
+  font-family: "Andika New Basic", sans-serif;
+  text-align: center;
+}
+
+body {
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+.main-app-container {
+  margin-top: 50px;
+}
+
+/* //Navabar Component */
+.Navbar {
+  background: white;
+}
+
+.Link {
+  color: rebeccapurple;
+  padding-left: 20px;
+}
+
+.link-text {
+  padding-top: 6px;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* //Sing List item Component */
+
+.SingleItemContainer {
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+.SingleItemContainer .row .leftCol {
+  text-align: left;
+}
+.SingleItemContainer .SingleItem .row .rightCol {
+  text-align: right;
+}
+.SingleItemContainer .SingleItem .row .col-md-4 {
+  padding: 5px;
+}
+.SingleItemContainer .content-para {
+  padding: 5px;
+}
+.SingleItemContainer .content-para p {
+  padding-left: 10px;
+}
+
+.contact-button {
+  color: #5b5be4;
+  border: none;
+  font-weight: 700;
+}
+
+/* /////////////////////////Sidebar////////// */
+
+.sidebar-container .fa-search {
+  padding-left: 3px;
+}
+
+.sidebar-container .side-search {
+  width: 85%;
+  border: none;
+  background: none;
+}
+
+/* ////////////Login Form & Registraion Form */
+
+.demo-container {
+  margin-top: 30px;
+}
+
+.userform .row .col-md-6 {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.userform .row .col-md-6 form {
+  margin: 0 auto;
+  display: table;
+}
+
+.userform input {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  outline: none;
+}
+.login-button {
+  display: initial;
+}
+.further-links {
+  margin-top: 20px;
+}
+.error {
+  color: red;
+  display: none;
+}
+
+.registerForm .group-inline {
+  display: inline;
+  margin-left: 10px;
+}
+.registerForm .row .col-md-6 {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.inline-block-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.registerForm .row .col-md-6 input {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  outline: none;
+  padding: 15px;
+}
+.registerForm .row .col-md-6 input:hover {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  outline: none;
+  background-color: #efefef;
+}
+
+.sb {
+  margin-top: 20px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* AddForm */
+
+.addForm {
+  background-color: white;
+  padding: 20px;
+}
+.addForm table {
+  padding: 20px;
+}
+
+.addForm input {
+  padding: 20px;
+}
+.addForm .dateField {
+  border: none;
+  outline: none;
+}
+
+.addForm input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(95, 90, 90);
+}
+.addForm input:hover {
+  border: none;
+  border-bottom: 1px solid rgb(56, 21, 21);
+  outline: none;
+  background-color: #efefef;
+}
+.addForm table td:nth-child(2) {
+  margin-left: 20px;
+}
+
+.addForm .textarea {
+  margin-top: 60px;
+}

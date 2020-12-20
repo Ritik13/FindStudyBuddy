@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
+
+.App {
+  font-family: "Andika New Basic", sans-serif;
+  text-align: center;
+}
+
+body {
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+.gap {
+  margin-top: 100px;
+}
+
+.from-left {
+  text-align: left;
+  background: white;
+  padding: 20px;
+}
+
+
+.main-app-container {
+  margin-top: 50px;
+}
+
+/* //Navabar Component */
+.Navbar {
+  background: white;
+}
+
+.Link {
+  color: rebeccapurple;
+  padding-left: 20px;
+}
+
+.link-text {
+  padding-top: 6px;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* //Sing List item Component */
+
+.SingleItemContainer {
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.SingleItemContainer .row .leftCol {
+  text-align: left;
+}
+
+.SingleItemContainer .SingleItem .row .rightCol {
+  text-align: right;
+}
+
+.SingleItemContainer .SingleItem .row .col-md-4 {
+  padding: 5px;
+}
+
+.SingleItemContainer .content-para {
+  padding: 5px;
+}
+
+.SingleItemContainer .content-para p {
+  padding-left: 10px;
+}
+
+.contact-button {
+  color: #5b5be4;
+  border: none;
+  font-weight: 700;
+}
+
+/* /////////////////////////Sidebar////////// */
+
+.sidebar-container .fa-search {
+  padding-left: 3px;
+}
+
+.sidebar-container .side-search {
+  width: 85%;
+  border: none;
+  background: none;
+}
+
+/* ////////////Login Form & Registraion Form */
+
+.demo-container {
+  margin-top: 30px;
+}
+
+.userform .row .col-md-6 {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.userform .row .col-md-6 form {
+  margin: 0 auto;
+  display: table;
+}
+
+.userform input {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  outline: none;
+}
+
+.login-button {
+  display: initial;
+}
+
+.further-links {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.registerForm .group-inline {
+  display: inline;
+  margin-left: 10px;
+}
+
+.registerForm .row .col-md-6 {
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.inline-block-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.registerForm .row .col-md-6 input {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  outline: none;
+  padding: 15px;
+}
+
+.registerForm .row .col-md-6 input:hover {
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  outline: none;
+  background-color: #efefef;
+}
+
+.sb {
+  margin-top: 20px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* AddForm */
+
+.addForm {
+  background-color: white;
+  padding: 20px;
+  max-width: 60% !important;
+
+}
+
+.addForm table {
+  padding: 20px;
+}
+
+.addForm input {
+  padding: 20px;
+}
+
+.addForm .dateField {
+  border: none;
+  outline: none;
+}
+
+.addForm input {
+  /* border: none; */
+  outline: none;
+}
+
+.addForm input:hover {
+  border: none;
+  border-bottom: 1px solid rgb(56, 21, 21);
+  outline: none;
+  background-color: #efefef;
+}
+
+.addForm table td:nth-child(2) {
+  margin-left: 20px;
+}
+
+.addForm table td {
+  width: 50%;
+}
+
+.addForm .textarea {
+  margin-top: 60px;
+}
+
+
+
+/* /// textarea  */
+.shadow-textarea textarea.form-control::placeholder {
+  font-weight: 300;
+}
+
+.shadow-textarea textarea.form-control {
+  padding-left: 0.8rem;
+}
+
+
+/* ////simple main  */
+
+.coolbutton {
+  width: 30% !important;
+  padding: 10px !important;
+}
+
+.coolbuttonFullWidth {
+  width: 100% !important;
+}
+
+.coolbuttonHalfWidth {
+  width: 50% !important;
+}
+
+/* .marginSmall {
+  margin-top: 20px;
+  margin-bottom: 20px;
+} */
+
+.form-control {
+  width: 80% !important;
+}
+
+
+/* ////icon padding */
+
+.icon-deco {
+  padding-top: 33px;
+}
+
+.dd {
+  display: inline-flex;
+}
+
+.tagList {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.tagCloud {
+  background-color: #F2F2F2;
+  margin: 0 5px 0px 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.py3 {
+  white-space: nowrap;
+  -webkit-order: 1;
+  -webkit-flex: 0 1 auto;
+  /*important*/
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.tagCloudofAdd {
+  background-color: #007bff;
+  color: white;
+  padding: 7px 10px 7px 10px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.fa-times {
+  padding-left: 12px;
+  font-size: 12px;
+}
+
+
+
+
+/* ///////UserDashBoard ///////// */
+
+
+.Dashgap {
+  background: white;
+  margin-top:100px;
+  padding: 40px;
+
+}
+.avatar-cont {
+
+}
+.Avta-img {
+  background-color : red;
+ 
+}
+.img-round {
+  border-radius: 100%;
+}
+
+.Dashgap h5{
+  font-style: italic;
+  display: inline;
+}
+.Dashgap .avt-bio {
+  text-align: left;
+  padding: 20px;
+}
+
+.small-detail {
+  padding: 20px;
+}
+
+
+.small-detail table {
+  border: 1px solid gainsboro;
+}
+.small-detail table tr td{
+padding: 10px;
+border: 1px solid gainsboro;
+
+}
+
+
+.cn {
+  margin-left: 10px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
